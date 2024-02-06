@@ -1,3 +1,4 @@
+<!--
 <section>
     <h1>Random Beer</h1>
     <div>
@@ -13,3 +14,15 @@
 
     </div>
 </section>
+-->
+
+<div>
+    {{>beerpartial}}
+</div>
+ 
+ <div>
+ <h3>Food Pairing</h3>
+        <div class="food_pairing">{{randomBeer.food_pairing}}</div>
+
+        <p><strong>Brewers Tips:</strong>{{randomBeer.brewers_tips}}</p>
+</div>
