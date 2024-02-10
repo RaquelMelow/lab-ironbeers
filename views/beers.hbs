@@ -1,16 +1,7 @@
 
-<div class='d-flex flex-wrap'>
+<div class='d-flex flex-wrap g-4'>
     {{#each beersList as |beer|}}
-
-     <!--<div>
-       {{ this.name }}
-        <a class="beer_link" href="/beers/{{this.id}}"> 
-            <img class="beer_image" src="{{this.image.url}}">
-        </a>
-        <h3 class="beer_name">{{this.tagline}}</h3>
-        <p class="beer_des">{{this.description}}</p>
-    </div>-->
-    <div class='col-md-4 p-4'>
+        <div class='col-md-3 p-4'>
         <div>
             {{>beerpartial beer=beer}}
         </div>

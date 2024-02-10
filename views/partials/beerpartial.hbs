@@ -1,8 +1,10 @@
 <section>
     <div class="beer-partial">
-        <h1>{{beer.name}}</h1>
-        <img class="beer_image" src={{beer.image_url}}>
+        <h1 style="font-size: 10px; text-align: justify;">{{beer.name}}</h1>
+        <img class="beer_image" src='{{beer.image_url}}'>
         <div class="beer_tag">{{beer.tagline}}</div>
-        <p>{{beer.description}}</p>
+        <p class="beer_description" style="max-width: 300px; text-align: justify;">
+        {{beer.description}}
+        </p>
     </div>
 </section>
